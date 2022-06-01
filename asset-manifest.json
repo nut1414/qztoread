@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/quizreader/static/css/main.35fa1717.css",
-    "main.js": "/quizreader/static/js/main.dfb74c30.js",
-    "static/js/787.f7740e47.chunk.js": "/quizreader/static/js/787.f7740e47.chunk.js",
-    "index.html": "/quizreader/index.html",
-    "main.35fa1717.css.map": "/quizreader/static/css/main.35fa1717.css.map",
-    "main.dfb74c30.js.map": "/quizreader/static/js/main.dfb74c30.js.map",
-    "787.f7740e47.chunk.js.map": "/quizreader/static/js/787.f7740e47.chunk.js.map"
+    "main.css": "/qztoread/static/css/main.35fa1717.css",
+    "main.js": "/qztoread/static/js/main.298c2384.js",
+    "static/js/787.f7740e47.chunk.js": "/qztoread/static/js/787.f7740e47.chunk.js",
+    "index.html": "/qztoread/index.html",
+    "main.35fa1717.css.map": "/qztoread/static/css/main.35fa1717.css.map",
+    "main.298c2384.js.map": "/qztoread/static/js/main.298c2384.js.map",
+    "787.f7740e47.chunk.js.map": "/qztoread/static/js/787.f7740e47.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35fa1717.css",
-    "static/js/main.dfb74c30.js"
+    "static/js/main.298c2384.js"
   ]
 }
