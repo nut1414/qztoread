@@ -5,7 +5,16 @@ export default function Result(props) {
   const updateResult = () => {
     if (props.data){
       const problemsList = props.data.map((problem) => {
-        return <Problem key={problem.id} question={problem.question} choices={problem.choices} answers={problem.answers}/>
+        return (
+          <Problem
+            revealAnswer={props.revealAnswer}
+            key={problem.id}
+            question={problem.question}
+            practice={props.practice}
+            choices={problem.choices}
+            answers={problem.answers}
+          />
+        );
       })
       return problemsList
     }

@@ -25,14 +25,22 @@ export default function Problem(props) {
       }
     }
   })
-
+  // console.log(props)
   return (
     <FloatBox>
-      <div className="font-bold" ref={qtEl} dangerouslySetInnerHTML={{__html: props?.question}}></div>
+      <div
+        className="font-bold"
+        ref={qtEl}
+        dangerouslySetInnerHTML={{ __html: props?.question }}
+      ></div>
       <div>
-        <Choices choices={props.choices}/>
+        <Choices
+          revealAnswer={props.revealAnswer}
+          practice={props.practice}
+          choices={props.choices}
+        />
       </div>
-      <AnswerPeople answers={props.answers}/>
+      <AnswerPeople answers={props.answers} />
     </FloatBox>
-  )
+  );
 }
